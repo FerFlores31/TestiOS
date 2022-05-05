@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1092B58282439F200448072 /* ChekTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1092B57282439F200448072 /* ChekTableViewCell.swift */; };
 		C1AA54B728209D0200896CE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA54B628209D0200896CE1 /* AppDelegate.swift */; };
 		C1AA54B928209D0200896CE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA54B828209D0200896CE1 /* SceneDelegate.swift */; };
 		C1AA54BB28209D0200896CE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA54BA28209D0200896CE1 /* ViewController.swift */; };
 		C1AA54BE28209D0200896CE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1AA54BC28209D0200896CE1 /* Main.storyboard */; };
 		C1AA54C028209D0700896CE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1AA54BF28209D0700896CE1 /* Assets.xcassets */; };
 		C1AA54C328209D0700896CE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1AA54C128209D0700896CE1 /* LaunchScreen.storyboard */; };
+		C1AA54CB2820A04C00896CE1 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA54CA2820A04C00896CE1 /* UIViewExt.swift */; };
+		C1AA54CD2820B2B000896CE1 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA54CC2820B2B000896CE1 /* MenuTableViewCell.swift */; };
+		C1AA54EF2822F82300896CE1 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA54EE2822F82300896CE1 /* FilterViewController.swift */; };
+		C1AA54F12822FC6D00896CE1 /* CamaraTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA54F02822FC6D00896CE1 /* CamaraTableViewCell.swift */; };
+		C1AA54F32822FC8100896CE1 /* ImagenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA54F22822FC8100896CE1 /* ImagenTableViewCell.swift */; };
+		C1AA54F52822FC9400896CE1 /* NombreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA54F42822FC9400896CE1 /* NombreTableViewCell.swift */; };
+		C1AA54F72822FCA400896CE1 /* NumeroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA54F62822FCA400896CE1 /* NumeroTableViewCell.swift */; };
+		C1AA54F92822FCB900896CE1 /* FechaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA54F82822FCB900896CE1 /* FechaTableViewCell.swift */; };
+		C1AA54FB2822FCC900896CE1 /* SexoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA54FA2822FCC900896CE1 /* SexoTableViewCell.swift */; };
+		C1AA54FD2822FCDC00896CE1 /* ColorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA54FC2822FCDC00896CE1 /* ColorTableViewCell.swift */; };
+		DE57F90AF6C1CBD386D0ABBF /* Pods_iOSTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC24700AB9C8A341900183E4 /* Pods_iOSTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB8F851D878D784BADED8553 /* Pods-iOSTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTest.release.xcconfig"; path = "Target Support Files/Pods-iOSTest/Pods-iOSTest.release.xcconfig"; sourceTree = "<group>"; };
+		AFC37349BFFCFB9A8C295611 /* Pods-iOSTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTest.debug.xcconfig"; path = "Target Support Files/Pods-iOSTest/Pods-iOSTest.debug.xcconfig"; sourceTree = "<group>"; };
+		BC24700AB9C8A341900183E4 /* Pods_iOSTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1092B57282439F200448072 /* ChekTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChekTableViewCell.swift; sourceTree = "<group>"; };
 		C1AA54B328209D0200896CE1 /* iOSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1AA54B628209D0200896CE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1AA54B828209D0200896CE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +40,16 @@
 		C1AA54BF28209D0700896CE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1AA54C228209D0700896CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1AA54C428209D0700896CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1AA54CA2820A04C00896CE1 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		C1AA54CC2820B2B000896CE1 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		C1AA54EE2822F82300896CE1 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		C1AA54F02822FC6D00896CE1 /* CamaraTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamaraTableViewCell.swift; sourceTree = "<group>"; };
+		C1AA54F22822FC8100896CE1 /* ImagenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenTableViewCell.swift; sourceTree = "<group>"; };
+		C1AA54F42822FC9400896CE1 /* NombreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NombreTableViewCell.swift; sourceTree = "<group>"; };
+		C1AA54F62822FCA400896CE1 /* NumeroTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumeroTableViewCell.swift; sourceTree = "<group>"; };
+		C1AA54F82822FCB900896CE1 /* FechaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FechaTableViewCell.swift; sourceTree = "<group>"; };
+		C1AA54FA2822FCC900896CE1 /* SexoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexoTableViewCell.swift; sourceTree = "<group>"; };
+		C1AA54FC2822FCDC00896CE1 /* ColorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE57F90AF6C1CBD386D0ABBF /* Pods_iOSTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4161A922106C1EC3B2075DC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFC37349BFFCFB9A8C295611 /* Pods-iOSTest.debug.xcconfig */,
+				AB8F851D878D784BADED8553 /* Pods-iOSTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C13F09DD28248DE000C2FD4A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C1AA54CA2820A04C00896CE1 /* UIViewExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C13F09DE28248E4C00C2FD4A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1AA54BA28209D0200896CE1 /* ViewController.swift */,
+				C1AA54EE2822F82300896CE1 /* FilterViewController.swift */,
+				C13F09DF28248E7700C2FD4A /* Cells */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C13F09DF28248E7700C2FD4A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C1AA54CC2820B2B000896CE1 /* MenuTableViewCell.swift */,
+				C1AA54F02822FC6D00896CE1 /* CamaraTableViewCell.swift */,
+				C1AA54F22822FC8100896CE1 /* ImagenTableViewCell.swift */,
+				C1AA54F42822FC9400896CE1 /* NombreTableViewCell.swift */,
+				C1AA54F62822FCA400896CE1 /* NumeroTableViewCell.swift */,
+				C1AA54F82822FCB900896CE1 /* FechaTableViewCell.swift */,
+				C1AA54FA2822FCC900896CE1 /* SexoTableViewCell.swift */,
+				C1AA54FC2822FCDC00896CE1 /* ColorTableViewCell.swift */,
+				C1092B57282439F200448072 /* ChekTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		C1AA54AA28209D0200896CE1 = {
 			isa = PBXGroup;
 			children = (
 				C1AA54B528209D0200896CE1 /* iOSTest */,
 				C1AA54B428209D0200896CE1 /* Products */,
+				4161A922106C1EC3B2075DC6 /* Pods */,
+				DD5D9DF711ECD16D5F2165C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +128,24 @@
 		C1AA54B528209D0200896CE1 /* iOSTest */ = {
 			isa = PBXGroup;
 			children = (
+				C13F09DE28248E4C00C2FD4A /* ViewControllers */,
+				C13F09DD28248DE000C2FD4A /* Extensions */,
 				C1AA54B628209D0200896CE1 /* AppDelegate.swift */,
 				C1AA54B828209D0200896CE1 /* SceneDelegate.swift */,
-				C1AA54BA28209D0200896CE1 /* ViewController.swift */,
 				C1AA54BC28209D0200896CE1 /* Main.storyboard */,
 				C1AA54BF28209D0700896CE1 /* Assets.xcassets */,
 				C1AA54C128209D0700896CE1 /* LaunchScreen.storyboard */,
 				C1AA54C428209D0700896CE1 /* Info.plist */,
 			);
 			path = iOSTest;
+			sourceTree = "<group>";
+		};
+		DD5D9DF711ECD16D5F2165C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC24700AB9C8A341900183E4 /* Pods_iOSTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1AA54C728209D0700896CE1 /* Build configuration list for PBXNativeTarget "iOSTest" */;
 			buildPhases = (
+				289EB7989D4FE96083531AF7 /* [CP] Check Pods Manifest.lock */,
 				C1AA54AF28209D0200896CE1 /* Sources */,
 				C1AA54B028209D0200896CE1 /* Frameworks */,
 				C1AA54B128209D0200896CE1 /* Resources */,
+				0B9B7DCAE8DA3B6A9A810FB5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +216,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B9B7DCAE8DA3B6A9A810FB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSTest/Pods-iOSTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSTest/Pods-iOSTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSTest/Pods-iOSTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		289EB7989D4FE96083531AF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1AA54AF28209D0200896CE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1AA54F32822FC8100896CE1 /* ImagenTableViewCell.swift in Sources */,
+				C1AA54EF2822F82300896CE1 /* FilterViewController.swift in Sources */,
+				C1AA54CB2820A04C00896CE1 /* UIViewExt.swift in Sources */,
+				C1AA54FD2822FCDC00896CE1 /* ColorTableViewCell.swift in Sources */,
 				C1AA54BB28209D0200896CE1 /* ViewController.swift in Sources */,
+				C1AA54F12822FC6D00896CE1 /* CamaraTableViewCell.swift in Sources */,
+				C1092B58282439F200448072 /* ChekTableViewCell.swift in Sources */,
+				C1AA54F52822FC9400896CE1 /* NombreTableViewCell.swift in Sources */,
+				C1AA54F92822FCB900896CE1 /* FechaTableViewCell.swift in Sources */,
 				C1AA54B728209D0200896CE1 /* AppDelegate.swift in Sources */,
+				C1AA54FB2822FCC900896CE1 /* SexoTableViewCell.swift in Sources */,
 				C1AA54B928209D0200896CE1 /* SceneDelegate.swift in Sources */,
+				C1AA54CD2820B2B000896CE1 /* MenuTableViewCell.swift in Sources */,
+				C1AA54F72822FCA400896CE1 /* NumeroTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +420,14 @@
 		};
 		C1AA54C828209D0700896CE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFC37349BFFCFB9A8C295611 /* Pods-iOSTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S76MLACH68;
+				DEVELOPMENT_TEAM = 3FM2FR6SG5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iOSTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -297,6 +435,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +443,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ferflores.iOSTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,12 +452,14 @@
 		};
 		C1AA54C928209D0700896CE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB8F851D878D784BADED8553 /* Pods-iOSTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S76MLACH68;
+				DEVELOPMENT_TEAM = 3FM2FR6SG5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iOSTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -325,6 +467,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,6 +475,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ferflores.iOSTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
